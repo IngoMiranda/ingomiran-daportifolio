@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Design Gráfico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar animate-on-scroll fade-in">
+        <div class="logo">
+            <i data-lucide="pen-tool"></i>
+        </div>
+        <div class="nav-links">
+            <a href="#">Projetos</a>
+            <a href="#">Serviços</a>
+            <a href="#">Preços</a>
+            <a href="#">Sobre Mim</a>
+        </div>
+        <div class="nav-actions">
+            <button class="btn btn-outline">PT</button>
+            <button class="btn btn-outline">Entrar</button>
+            <button class="btn btn-primary">Registrar</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-on-scroll slide-up">criativo</h1>
+            
+            <div class="hero-bottom animate-on-scroll fade-in">
+                <div class="hero-tags">
+                    <span class="tag">design</span>
+                    <span class="tag">identidade</span>
+                    <span class="tag">marcas</span>
+                </div>
+                
+                <div class="hero-description">
+                    <h2>Design Único,<br>Mais Impacto.</h2>
+                    <p>Descubra uma nova forma de comunicar visualmente que é atraente, fácil e sem stress. Transforme suas ideias em realidades inesquecíveis.</p>
+                    <a href="#" class="btn btn-primary btn-icon">Ver Mais <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-footer animate-on-scroll fade-in">
+                <div class="progress">
+                    <span>1/10</span>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+                <div class="scroll-indicator">
+                    <i data-lucide="mouse"></i> Scroll Now
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Section -->
+    <section class="filter-section animate-on-scroll slide-up">
+        <div class="filter-container">
+            <div class="filter-item">
+                <i data-lucide="map-pin"></i>
+                <div class="input-group">
+                    <label>Categoria ou estilo</label>
+                    <input type="text" placeholder="Ex: Identidade Visual">
+                </div>
+            </div>
+            <div class="filter-item">
+                <i data-lucide="calendar"></i>
+                <div class="input-group">
+                    <label>Data de Conclusão</label>
+                    <input type="text" placeholder="Adicionar Datas">
+                </div>
+            </div>
+            <div class="filter-item">
+                <i data-lucide="layout"></i>
+                <div class="input-group">
+                    <label>Tipo de Projeto</label>
+                    <select>
+                        <option>Branding</option>
+                        <option>UI/UX Design</option>
+                        <option>Ilustração</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn btn-search"><i data-lucide="search"></i></button>
+        </div>
+    </section>
+
+    <!-- Recommended Projects -->
+    <section class="recommended-section">
+        <div class="section-header animate-on-scroll fade-in">
+            <h2>Projetos em Destaque</h2>
+            <div class="slider-controls">
+                <button class="btn-control"><i data-lucide="chevron-left"></i></button>
+                <button class="btn-control"><i data-lucide="chevron-right"></i></button>
+            </div>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Card 1 -->
+            <div class="project-card animate-on-scroll slide-up" style="--delay: 0.1s">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=600&auto=format&fit=crop" alt="Projeto 1">
+                    <div class="card-badge"><img src="https://flagcdn.com/w20/br.png" alt="BR"> Brasil</div>
+                    <div class="card-rating"><i data-lucide="star"></i> 4.9</div>
+                </div>
+                <div class="card-content">
+                    <h3>Identidade Visual - TechCorp</h3>
+                    <p>Descubra uma nova forma de comunicar visualmente que é atraente, fácil e sem stress.</p>
+                    <a href="#" class="card-link">Ver Projeto <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="project-card animate-on-scroll slide-up" style="--delay: 0.2s">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=600&auto=format&fit=crop" alt="Projeto 2">
+                    <div class="card-badge"><img src="https://flagcdn.com/w20/us.png" alt="US"> Global</div>
+                    <div class="card-rating"><i data-lucide="star"></i> 5.0</div>
+                </div>
+                <div class="card-content">
+                    <h3>UI/UX Design - App Financeiro</h3>
+                    <p>Descubra uma nova forma de comunicar visualmente que é atraente, fácil e sem stress.</p>
+                    <a href="#" class="card-link">Ver Projeto <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="project-card animate-on-scroll slide-up" style="--delay: 0.3s">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=600&auto=format&fit=crop" alt="Projeto 3">
+                    <div class="card-badge"><img src="https://flagcdn.com/w20/pt.png" alt="PT"> Portugal</div>
+                    <div class="card-rating"><i data-lucide="star"></i> 4.8</div>
+                </div>
+                <div class="card-content">
+                    <h3>Redesign de Marca - Café Central</h3>
+                    <p>Descubra uma nova forma de comunicar visualmente que é atraente, fácil e sem stress.</p>
+                    <a href="#" class="card-link">Ver Projeto <i data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="services-content animate-on-scroll slide-up">
+            <h2>Eleve a sua Marca</h2>
+            <p>Somos um estúdio de design especializado em personalizar soluções visuais de acordo com as suas preferências, necessidades e desejos.</p>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon"><i data-lucide="layers"></i></div>
+                    <h4>Branding e Identidade</h4>
+                    <p>O pacote inclui a criação de logotipos, paletas de cores, tipografia e manuais de marca.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i data-lucide="users"></i></div>
+                    <h4>Design Focado no Usuário</h4>
+                    <p>Um designer profissional é alguém que pode tornar a experiência do seu cliente mais agradável.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i data-lucide="camera"></i></div>
+                    <h4>Direção de Arte</h4>
+                    <p>Acompanhamento completo da produção visual e fotográfica para sua campanha.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><i data-lucide="star"></i></div>
+                    <h4>Materiais Premium</h4>
+                    <p>Garantia de qualidade em todos os entregáveis, prontos para uso em qualquer plataforma.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="services-image animate-on-scroll fade-in" style="--delay: 0.2s">
+            <div class="image-badge">Design</div>
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop" alt="Services Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="sobre">
+        <div class="about-container animate-on-scroll slide-up">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Sobre Mim">
+            </div>
+            <div class="about-content">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Sou um designer gráfico apaixonado por criar identidades visuais que comunicam profissionalismo e autoridade. Com anos de experiência ajudando escolas e negócios a se destacarem, acredito que o design é mais do que estética: é estratégia.</p>
+                <p>Meu objetivo é transformar sua visão em uma marca forte, consistente e memorável. Vamos trabalhar juntos para elevar o nível da sua comunicação visual.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Projetos Entregues</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Clientes Satisfeitos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer animate-on-scroll fade-in">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <i data-lucide="pen-tool"></i>
+                    <span>Ingo Miranda</span>
+                </div>
+                <p>Design que profissionaliza. Identidade visual consistente para escolas e negócios que querem ser levados a sério.</p>
+                <div class="social-links">
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                    <a href="#"><i data-lucide="mail"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <a href="#">Projetos</a>
+                <a href="#">Serviços</a>
+                <a href="#">Preços</a>
+                <a href="#">Sobre Mim</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i data-lucide="map-pin"></i> Brasil</p>
+                <p><i data-lucide="mail"></i> contato@ingomiranda.com</p>
+                <p><i data-lucide="phone"></i> +55 (11) 99999-9999</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ingo Miranda. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
